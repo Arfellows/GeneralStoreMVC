@@ -14,7 +14,9 @@ namespace GeneralStoreMVC.Controllers
         // GET: Product/Index
         public ActionResult Index()
         {
-            return View(_db.Products.ToList());
+            List<Product> productList = _db.Products.ToList();
+            List<Product> orderedList = productList.OrderBy(prod => prod.Name).ToList();
+            return View(orderedList);
         }
 
         // GET: Product/Create
