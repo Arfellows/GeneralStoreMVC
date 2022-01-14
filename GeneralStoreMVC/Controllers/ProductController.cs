@@ -80,5 +80,19 @@ namespace GeneralStoreMVC.Controllers
             }
             return View(product);
         }
+
+        // POST: Product/Edit/{id}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Product product)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Entry(product).State = System.Data.Entity.EntityState.Modified;
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(product);
+        }
     }
 }
