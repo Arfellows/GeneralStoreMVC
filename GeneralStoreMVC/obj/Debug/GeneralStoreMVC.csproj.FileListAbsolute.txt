@@ -101,7 +101,6 @@ C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\bin\Microsoft.Owin.Securi
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\bin\Microsoft.Owin.Security.OAuth.xml
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.csproj.AssemblyReference.cache
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.csproj.CopyComplete
 C:\ElevenFiftyProjects\GeneralStoreMVC\GeneralStoreMVC\obj\Debug\GeneralStoreMVC.dll
