@@ -184,6 +184,10 @@
     <Compile Include="Migrations\202201182245071_ChangedProductModel.Designer.cs">
       <DependentUpon>202201182245071_ChangedProductModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201190056538_Transactions.cs" />
+    <Compile Include="Migrations\202201190056538_Transactions.Designer.cs">
+      <DependentUpon>202201190056538_Transactions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -260,10 +264,14 @@
     <Content Include="Views\Customer\Delete.cshtml" />
     <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Transaction\Index.cshtml" />
+    <Content Include="Views\Transaction\Create.cshtml" />
+    <Content Include="Views\Transaction\Delete.cshtml" />
+    <Content Include="Views\Transaction\Edit.cshtml" />
+    <Content Include="Views\Transaction\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Transaction\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -284,6 +292,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201182245071_ChangedProductModel.resx">
       <DependentUpon>202201182245071_ChangedProductModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201190056538_Transactions.resx">
+      <DependentUpon>202201190056538_Transactions.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<GeneralStoreMVC.Models.Transaction>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Transactions</h2>
+
+<p>
+    @Html.ActionLink("Add a Transaction", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductID)
+        </th>
+    </tr>
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CustomerID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductID)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.TransactionID })
+                        @Html.ActionLink("View", "Details", new { id = item.TransactionID })
+                        @Html.ActionLink("Remove", "Delete", new { id = item.TransactionID })
+                    </td>
+                </tr>
+            }
+</table>
